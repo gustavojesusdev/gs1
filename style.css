@@ -163,7 +163,7 @@ header>li {
   margin-bottom: 4px;
 }
 
-.questions span p {
+.option-btn {
   display: flex;
   text-align: center;
   background-color: rgba(211, 211, 211, 0.603);
@@ -211,13 +211,20 @@ header>li {
   margin-right: auto;
   text-align: center;
 }
+.hidden{
+  display: none;
 
-.send-resposta {
+}
+.send-answer {
   margin-bottom: 10px;
   font-size: 18px;
 }
 
-.send-resposta-info {
+.wrong-answer {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+.send-answer-info {
   font-weight: bold;
   font-size: 14px;
 }
