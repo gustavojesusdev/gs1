@@ -124,7 +124,7 @@ header>li {
 
 .quiz-init :nth-child(1) {
   font-size: 30px;
-  flex-wrap: wrap;
+  text-align: center;
   margin-bottom: 8px;
 }
 
@@ -173,6 +173,11 @@ header>li {
   width: 400px;
 }
 
+.option-btn:hover{
+  cursor: pointer;
+  transition: 0.35s;
+}
+
 .questions span :hover {
   cursor: pointer;
 }
@@ -185,7 +190,7 @@ header>li {
   width: 400px;
   margin-right: auto;
   margin-left: auto;
-  margin-bottom: 100pc;
+  margin-bottom: 100px;
   padding-bottom: 60px;
   border-bottom: solid 2px gray;
 }
@@ -223,6 +228,8 @@ header>li {
 .wrong-answer {
   margin-bottom: 10px;
   font-size: 18px;
+  
+  cursor: default;
 }
 .send-answer-info {
   font-weight: bold;
