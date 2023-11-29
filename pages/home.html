@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="../styles/home.css">
+    <link rel="stylesheet" href="/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
@@ -18,7 +19,8 @@
       <div class="container-fluid">
         <nav class="navbar navbar-expand-lg">
             <a class="navbar-brand" href="#">
-                <img src="../Images/logo night-03.svg" class="logo-image" alt="HealthQ logo" height="50">
+                <img src="../Images/logo night-03.svg" class="night logo-image" alt="HealthQ logo" height="50">
+                <img src="../Images/logo day-03.svg" class="day logo-image hidden" alt="HealthQ logo" height="50">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -26,19 +28,19 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto align-items-end">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">0</a>
+                        <a class="nav-link active" aria-current="page" href="/pages/home.html">0</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">1</a>
+                        <a class="nav-link" href="/pages/pag1.html">1</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">2</a>
+                        <a class="nav-link" href="/pages/pag2.html">2</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">3</a>
+                        <a class="nav-link" href="/pages/pag3.html">3</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">4</a>
+                        <a class="nav-link" href="/pages/pag4.html">4</a>
                     </li>
                 </ul>
                 </div>
@@ -47,8 +49,9 @@
         </nav>
 
         <section class="main-content text-center">
-            <img src="../Images/logo night-03.svg" class="logo-image-main" alt="HealthQ logo">
-            <h1 class="mt-4 text-center">Frase de destaque aqui.</h1>
+            <img src="../Images/logo night-03.svg" class="night logo-image-main" alt="HealthQ logo">
+            <img src="../Images/logo day-03.svg" class="day hidden logo-image-main" alt="HealthQ logo">
+            <h1 class="mt-4 text-center ">Frase de destaque aqui.</h1>
             <iframe width="640" height="350" src="https://www.youtube.com/embed/w0QUbIzu8ek?si=oOtntkZQjm_7wypF"
                 title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen></iframe>
@@ -65,7 +68,7 @@
 
     </div>
 
-    <section class="second-content">
+    <section class="second-content" id="exception">
       <div class="row">
           <div class="col-md-4">
             <!-- Precisamos trocar as imagens daqui! -->
@@ -73,7 +76,7 @@
                 <circle cx="50" cy="50" r="50" />
             </svg>
               <h2 class="benefits-title">Benefício 1</h2>
-              <p class="benefits-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quam hic
+              <p class="benefits-text" id="branco">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quam hic
                   ratione nesciunt sit enim quis tenetur magnam, pariatur doloremque modi natus dolorum commodi
                   corrupti, fugit odit veniam a reiciendis.</p>
           </div>
@@ -83,7 +86,7 @@
                 <circle cx="50" cy="50" r="50" />
             </svg>
               <h2 class="benefits-title">Benefício 2</h2>
-              <p class="benefits-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quam hic
+              <p class="benefits-text" id="branco">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quam hic
                   ratione nesciunt sit enim quis tenetur magnam, pariatur doloremque modi natus dolorum commodi
                   corrupti, fugit odit veniam a reiciendis.</p>
           </div>
@@ -93,7 +96,7 @@
                 <circle cx="50" cy="50" r="50" />
             </svg>
               <h2 class="benefits-title">Benefício 3</h2>
-              <p class="benefits-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quam hic
+              <p class="benefits-text" id="branco">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quam hic
                   ratione nesciunt sit enim quis tenetur magnam, pariatur doloremque modi natus dolorum commodi
                   corrupti, fugit odit veniam a reiciendis.</p>
           </div>
@@ -103,46 +106,51 @@
 
     <section class="support">
       <div class="container-sm">
-        <h2 class="support-title">Venha apoiar essa iniciativa com a gente!</h2>
-        <p class="support-text">Para mais informações, escreva para
+        <h2 class="text-night-1 support-title">Venha apoiar essa iniciativa com a gente!</h2>
+        <p class="text-night-1 text-center">Para mais informações, escreva para
           contato@healthq.com.br</p>
       </div>
     </section>
 
         <section class="quiz-section">
-            <h1 class="quiz-title"> Quer ir além? </h1>  
+            <h1 class="text-night-2 quiz-title"> Quer ir além? </h1>  
             <p class="quiz-text"> Teste seus conhecimentos com nosso QUIZ sobre os Objetivos de Desenvolvimento Sustentável (ODS) propostos pela ONU. </p>
             <p class="quiz-text"> Clique nas opções abaixo e divirta-se!</p>
 
             <div class="quizzes-area">
                 <div class="quiz-options">
                     <div class="image-container">
-                        <img class="quiz-images" src="../Images/icons home-06.png">
+                        <img class="quiz-images night" src="../Images/icons home-06.png">
+                        <img class="quiz-images day hidden" src="../Images/icons home-05.png">
                     </div>
                     <p class="quiz-options-text">Redução da mortalidade infantil.</p>
                 </div>
                 <div class="quiz-options">
                     <div class="image-container">
-                        <img class="quiz-images" src="../Images/icons home-08.png">
+                        <img class="quiz-images night" src="../Images/icons home-08.png">
+                        <img class="quiz-images day hidden" src="../Images/icons home-07.png">
                     </div>
                     <p class="quiz-options-text">Combate a doenças transmissíveis.</p>
                 </div>
                 <div class="quiz-options">
                     <div class="image-container">
-                        <img class="quiz-images" src="../Images/icons home-09.png">
+                        <img class="quiz-images night" src="../Images/icons home-09.png">
+                        <img class="quiz-images day hidden" src="../Images/icons home-08.png">
                     </div>
                     <p class="quiz-options-text">Prevenção e tratamento de doenças não transmissíveis.</p>
                 </div>
                 <div class="quiz-options">
                     <div class="image-container">
-                        <img class="quiz-images" src="../Images/icons home-12.png">
+                        <img class="quiz-images night" src="../Images/icons home-12.png">
+                        <img class="quiz-images day hidden" src="../Images/icons home-11.png">
                     </div>
                     <p class="quiz-options-text">Melhoria geral da Saúde</p>
                 </div>
             </div>
             
         <footer>
-        <img src="../Images/logo night-03.svg" class="logo-image-main-footer text-center" alt="HealthQ logo">
+        <img src="../Images/logo night-03.svg" class="night logo-image-main-footer text-center" alt="HealthQ logo">
+        <img src="../Images/logo day-03.svg" class="day hidden logo-image-main-footer text-center" alt="HealthQ logo">
         </footer>
 
         </section>

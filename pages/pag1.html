@@ -18,13 +18,14 @@
   <link rel="stylesheet" href="/styles/pag1.css">
 </head>
 
-<body class="page-background">
+<body class="page-background" id="body">
 
   <div class="container-fluid">
     <div class="container-fluid">
       <nav class="navbar navbar-expand-lg">
         <a class="navbar-brand" href="#">
-          <img src="../Images/logo night-03.svg" class="logo-image" alt="HealthQ logo" height="50">
+          <img src="../Images/logo night-03.svg" class="night logo-image" alt="HealthQ logo" height="50">
+          <img src="../Images/logo day-03.svg" class="day hidden logo-image" alt="HealthQ logo" height="50">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,19 +34,19 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto align-items-end">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">0</a>
+              <a class="nav-link" aria-current="page" href="/pages/home.html">0</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#">1</a>
+              <a class="nav-link active" href="/pages/pag1.html">1</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">2</a>
+              <a class="nav-link" href="/pages/pag2.html">2</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">3</a>
+              <a class="nav-link" href="/pages/pag3.html">3</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">4</a>
+              <a class="nav-link" href="/pages/pag4.html">4</a>
             </li>
           </ul>
         </div>
@@ -211,16 +212,16 @@
           <button type="button" class="option-btn bg-dark text-white" value="d"> D - reducao do tempo de sono dos bebes</button>
         </div>
 
-        <button type="button" class="btn btn-primary bg-success px-5 my-3">Enviar Resposta</button>
+        <button type="button" class="send-btn btn btn-primary bg-success px-5 my-3">Enviar Resposta</button>
 
         <span class="send-text">
-          <p class="send-answer text-success hidden">
+          <p class="hidden send-answer text-success">
             PARABÉNS, RESPOSTA CORRETA!
           </p>
-          <p class="wrong-answer text-danger hidden">
+          <p class="hidden wrong-answer text-danger">
             Resposta Errada!
           </p>
-          <p class="col-md-6 send-answer-info hidden" id="branco" style="font-size: 16px">A vacinação infantil é uma das principais
+          <p class="hidden col-md-6 send-answer-info" id="branco" style="font-size: 16px">A vacinação infantil é uma das principais
             intervenções
             que contribuiu significativamente para a redução da
             mortalidade infantil, protegendo os bebês contra
@@ -379,7 +380,9 @@
     <div class="container mb-5">
       <div class="row d-flex align-items-center justify-content-center">
         <img src="/Images/refazer night-04.svg" alt="refazer" style="width: 40px"
-          class="align-middle rounded float-right">
+          class="night align-middle rounded float-right">
+        <img src="/Images/refazer day-05.svg" alt="refazer" style="width: 40px"
+          class="day hidden align-middle rounded float-right">
 
         <div class="align-baseline text-left d-flex align-items-start p-0">
           <p class="text-left d-flex align-items-start mb-0 ml-2" id="branco">
@@ -391,7 +394,8 @@
 
     <div class="container mb-5">
       <div class="row d-flex align-items-center justify-content-center">
-        <img src="/Images/topo night-07.svg" alt="refazer" style="width: 40px" class="align-middle rounded float-right">
+        <img src="/Images/topo night-07.svg" alt="refazer" style="width: 40px" class="night align-middle rounded float-right">
+        <img src="/Images/topo day-06.svg" alt="refazer" style="width: 40px" class="day hidden align-middle rounded float-right">
 
         <div class="align-baseline text-left d-flex align-items-start p-0">
           <p class="text-left d-flex align-items-start mb-0 ml-2" id="branco">
@@ -405,7 +409,8 @@
     <div class="container mt-5">
       <div class="row d-flex align-items-center">
         <div class="col mx-auto text-center">
-          <img src="/Images/logo night-03.svg" alt="logo night" class="logo-image" style="height: 80px">
+          <img src="/Images/logo night-03.svg" alt="logo " class="night logo-image" style="height: 80px">
+          <img src="/Images/logo day-03.svg" alt="logo " class="day hidden logo-image" style="height: 80px">
         </div>
       </div>
     </div>
