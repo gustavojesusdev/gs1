@@ -16,7 +16,7 @@
 	.st10{fill:#CCCCCC;}
 	.st11{fill:#6A6E80;}
 	.st12{fill:#434756;}
-	.st13{font-family:'Lato-Heavy';}
+	.st13{font-family:'Lato', sans-serif; font-weight: 700;}
 	.st14{font-size:86.2806px;}
 </style>
 <g>
