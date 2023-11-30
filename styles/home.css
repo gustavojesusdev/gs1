@@ -56,9 +56,9 @@ body {
     align-items: center;
 }
 
-h1 {
+.catch-phrase {
     text-align: center;
-    color: #485795;
+    color: #495697;
     font-weight: 700;
 }
 
@@ -95,16 +95,18 @@ p {
     padding-right: 50px;
 }
 
-
-
 .benefits-title {
     color: #87CB9A;
     font-weight: 700;
+    margin-top: 10px;
 }
 
 .benefits-text {
     word-wrap: break-word;
     font-weight: 400;
+    margin-top: 15px;
+    color: #434756;
+    font-size: 24px;
 }
 
 .support {
@@ -175,6 +177,11 @@ p {
 .quiz-images {
     max-width: 500px;
     height: 100px;
+    transition: transform 0.3s ease-in-out; /* Adiciona uma transição suave para o efeito */
+}
+
+.quiz-images:hover {
+    transform: scale(0.95); /* Aumenta o tamanho do ícone em 20% no hover */
 }
 
 .quizzes-area {
