@@ -227,7 +227,7 @@ header>li {
   margin-bottom: 4px;
 }
 
-.option-btn {
+.option-btn-1 {
   display: flex;
   text-align: center;
   background-color: rgba(211, 211, 211, 0.603);
@@ -237,7 +237,7 @@ header>li {
   width: 400px;
 }
 
-.option-btn:hover {
+.option-btn-1:hover {
   cursor: pointer;
   transition: 0.35s;
 }
@@ -259,7 +259,7 @@ header>li {
   border-bottom: solid 2px gray;
 }
 
-.send-btn {
+.send-btn-1 {
   background-color: rgba(144, 238, 144, 0.692);
   border: none;
   border-radius: 10px;
@@ -267,11 +267,11 @@ header>li {
   margin-bottom: 15px;
 }
 
-.send-btn:hover {
+.send-btn-1:hover {
   cursor: pointer;
 }
 
-.send-text {
+.send-text-1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -286,21 +286,24 @@ header>li {
 
 }
 
-.send-answer {
+.send-answer-1 {
   margin-bottom: 10px;
   font-size: 18px;
+  color: green;
 }
 
-.wrong-answer {
+.wrong-answer-1 {
   margin-bottom: 10px;
   font-size: 18px;
+  color: red;
 
   cursor: default;
 }
 
-.send-answer-info {
+.send-answer-info-1 {
   font-weight: bold;
   font-size: 14px;
+  color: green;
 }
 
 .list-group-item {
