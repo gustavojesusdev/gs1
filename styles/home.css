@@ -175,50 +175,53 @@ p {
 }
 
 .quiz-images {
-    max-width: 500px;
+    max-width: 100%; 
     height: 100px;
-    transition: transform 0.3s ease-in-out; /* Adiciona uma transição suave para o efeito */
+    transition: transform 0.3s ease-in-out;
 }
 
 .quiz-images:hover {
-    transform: scale(0.95); /* Aumenta o tamanho do ícone em 20% no hover */
+    transform: scale(0.95);
 }
 
 .quizzes-area {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-items: flex-start; 
+    align-items: flex-start;
     text-align: center;
 }
 
 .quiz-options {
     margin: 20px;
-    max-width: 100%; 
-    flex: 1; 
-    box-sizing: border-box; 
+    flex: 1;
+    box-sizing: border-box;
+    max-width: 250px; 
 }
-
 
 .image-container {
     margin-bottom: 10px;
 }
-
 
 .quiz-options-text {
     color: white;
     font-family: 'Lato', sans-serif;
     font-weight: 700;
     margin: 10px;
-    font-size: 2vh; 
+    font-size: 2vh;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 150px;
+    align-items: center; 
 }
 
-
+@media (max-width: 768px) {
+    .quiz-options {
+        flex: 0 0 100%; 
+        max-width: 100%; 
+    }
+}
 
 footer {
     align-items: center;
