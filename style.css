@@ -45,12 +45,28 @@ h6 {
 
 }
 
-h4{
+h4 {
   color: rgb(180, 180, 180);
 }
 
-#branco{
-  color: rgb(180,180,180);
+#branco {
+  color: rgb(180, 180, 180);
+}
+
+.text-night-1 {
+  color: white;
+}
+
+.text-night-2 {
+  color: #98A4CB;
+}
+
+.text-day-1{
+  color: #98A4CB;
+}
+
+.text-day-2{
+  color: white;
 }
 
 .texto-inf {
@@ -285,4 +301,8 @@ header>li {
 .send-answer-info {
   font-weight: bold;
   font-size: 14px;
+}
+
+.list-group-item {
+  padding-top: 0;
 }
