@@ -19,7 +19,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #98A4CB;
+  color: #92A7FF;
 }
 
 h1,
@@ -50,7 +50,16 @@ h4 {
 }
 
 #branco {
-  color: rgb(180, 180, 180);
+  border: none;
+  background-color: transparent;
+  font-weight: 400;
+  color: #CACACA;
+}
+
+#branco:focus {
+  outline: thin dotted;
+  outline: 0px auto -webkit-focus-ring-color;
+  outline-offset: 0px;
 }
 
 .text-night-1 {
@@ -61,17 +70,17 @@ h4 {
   color: #98A4CB;
 }
 
-.text-day-1{
+.text-day-1 {
   color: #98A4CB;
 }
 
-.text-day-2{
+.text-day-2 {
   color: white;
 }
 
 .texto-inf {
   font-weight: 400;
-  color: rgb(180, 180, 180);
+  color: #CACACA;
 
 }
 
@@ -260,7 +269,7 @@ header>li {
 }
 
 .send-btn-1 {
-  background-color: rgba(144, 238, 144, 0.692);
+  background-color: rgb(183, 210, 130);
   border: none;
   border-radius: 10px;
   padding: 10px 70px;
@@ -308,4 +317,30 @@ header>li {
 
 .list-group-item {
   padding-top: 0;
+}
+
+.quiz-div-bg {
+  background-color: rgb(46, 49, 63);
+}
+
+.option-btn-1 {
+  border: none;
+}
+
+.option-btn-1:hover {
+  background-color: #92A7FF;
+}
+
+.option-btn-1:focus {
+  background-color: #92A7FF;
+}
+
+.send-answer-1 {
+  color: #89CD9B;
+  font-size: 18px;
+}
+
+.wrong-answer-1 {
+  color: #b84343;
+  font-size: 18px;
 }

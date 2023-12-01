@@ -5,6 +5,7 @@ html {
 
 body { 
     font-family: 'Lato', sans-serif;
+    background-color: #262835;
 }
 
 .circle {
@@ -14,19 +15,19 @@ body {
 
 
 .navbar a {
-    color: #98A4CB;
+    color: #5A6CAD;
     font-size: 2em;
     font-weight: 700;
     margin: 20px;
 }
 
 .navbar a:hover {
-    color: #465593;
+    color: #92A7FF;
     transition: 0.5s;
 }
 
 .nav-link.active {
-    color: #465593;
+    color: #92A7FF;
     text-decoration: underline;
 }
 
