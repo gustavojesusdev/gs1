@@ -59,8 +59,9 @@ body {
 
 .catch-phrase {
     text-align: center;
-    color: #495697;
+    color: #92A7FF;
     font-weight: 700;
+    overflow: hidden;
 }
 
 iframe {
@@ -82,11 +83,12 @@ p {
 }
 
 .list-group-item {
-    color: #485795;
+    color: #92A7FF;
     font-weight: 700;
     padding-top: 1rem;
     background-color: transparent;
     border: none;
+    overflow: hidden;
 }
 
 .second-content {
@@ -111,26 +113,26 @@ p {
 }
 
 .support {
-    background-color: #b5d17f;
+    background-color: #73A880;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 315px;
+    height: 400px;
 }
 
 .support-title {
-    color: #485795;
+    color: #F1F3F3;
     text-align: center;
     margin-top: 50px;
     font-weight: 700;
     margin: auto;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     width: 400px;
 }
 
 .support-text {
-    color: #485795;
+    color: #F1F3F3;
     font-size: 2vh;
     text-align: center;
     margin: auto;
@@ -144,12 +146,12 @@ p {
     justify-content: center;
     align-items: center;
     height: auto;
-    background-color: #94A9FF;
+    background-color: #262835;
     padding-top: 80px;
 }
 
 .quiz-title {
-    color: white;
+    color: #92A7FF;
     text-align: center;
     margin-top: 50px;
     font-weight: 700;
@@ -179,6 +181,10 @@ p {
     max-width: 100%; 
     height: 100px;
     transition: transform 0.3s ease-in-out;
+}
+
+form {
+    padding-bottom: 20px;
 }
 
 .quiz-images:hover {
@@ -237,6 +243,41 @@ footer {
     text-align: center;
     position: relative;
     align-items: center;
-    fill: white;
+}
+
+.input-text {
+   color:white;
+   font-size: 2.5vh;
+   font-family: 'Lato', sans-serif;
+   width: 500px;
+   text-align: center;
+   
+}
+
+.input-style {
+    border-radius: 10px;
+}
+
+.btn-style {
+    background-color: #5A6CAD;
+    border: #92A7FF;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.btn-style:hover {
+    background-color: #92A7FF;
+}
+.input-area {
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+
+.hidden {
+    display: none;
+}
+
+.email-style {
     color: white;
+    font-size: 20px;
 }
